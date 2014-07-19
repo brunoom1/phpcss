@@ -4,7 +4,7 @@ Class CSS
 Class for css create using simple php.
 This class cause possible the css element extensible.
 
-Using examples:
+Using samples:
 ---
 
 ###In HTML Document
