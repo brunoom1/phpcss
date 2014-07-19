@@ -51,8 +51,8 @@ Using samples:
     $css -> v("var_name","value");
     @return CSS Object
   */
-  $css -> v("game_width","400px")
-    -> v("game_height", "400px");
+  $css -> v("width","400px")
+    -> v("height", "400px");
 
   /*
     Create element
@@ -62,8 +62,8 @@ Using samples:
 
   $css -> e("#estilo1",array(
     "float" => "left",
-    "width" => "200px",
-    "height" => "100px",
+    "width" => "@width",
+    "height" => "@height",
     "background-color" => "blue"
   ));
 
